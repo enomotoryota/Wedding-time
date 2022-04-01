@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  padding: 3em 0;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #5d627b;
+  background: white;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+
+  padding: 10px;
+  margin: 10px;
+  color: #5d627b;
+  background: white;
+  border-top: solid 3px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.day {
+  padding: 0 0.5em 0;
+}
