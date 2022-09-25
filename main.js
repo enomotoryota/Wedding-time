@@ -24,7 +24,7 @@ const time = () => {
   // 衣装合わせの日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay = new Date("2022/9/01 00:00:00"); // 期限日の日時を代入
+  const limiteDay = new Date("2022/12/01 00:00:00"); // 期限日の日時を代入
   const limiteyear = limiteDay.getFullYear();
   const limitemonth = limiteDay.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate = limiteDay.getDate();
@@ -44,7 +44,7 @@ const time = () => {
   // 衣装合わせの日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay2 = new Date("2023/3/04 00:00:00"); // 期限日の日時を代入
+  const limiteDay2 = new Date("2023/2/04 00:00:00"); // 期限日の日時を代入
   const limiteyear2 = limiteDay2.getFullYear();
   const limitemonth2 = limiteDay2.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate2 = limiteDay2.getDate();
@@ -64,7 +64,7 @@ const time = () => {
   // 結婚式の日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay3 = new Date("2023/9/17 00:00:00"); // 期限日の日時を代入
+  const limiteDay3 = new Date("2023/9/16 00:00:00"); // 期限日の日時を代入
   const limiteyear3 = limiteDay3.getFullYear();
   const limitemonth3 = limiteDay3.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate3 = limiteDay3.getDate();
