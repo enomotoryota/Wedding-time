@@ -24,7 +24,7 @@ const time = () => {
   // 衣装合わせの日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay = new Date("2022/12/01 00:00:00"); // 期限日の日時を代入
+  const limiteDay = new Date("2022/12/09 11:00:00"); // 期限日の日時を代入
   const limiteyear = limiteDay.getFullYear();
   const limitemonth = limiteDay.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate = limiteDay.getDate();
@@ -44,7 +44,7 @@ const time = () => {
   // 衣装合わせの日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay2 = new Date("2023/2/04 00:00:00"); // 期限日の日時を代入
+  const limiteDay2 = new Date("2023/2/08 15:00:00"); // 期限日の日時を代入
   const limiteyear2 = limiteDay2.getFullYear();
   const limitemonth2 = limiteDay2.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate2 = limiteDay2.getDate();
@@ -64,7 +64,7 @@ const time = () => {
   // 結婚式の日時
 
   /* 期限日時の設定と表示の処理 */
-  const limiteDay3 = new Date("2023/9/16 00:00:00"); // 期限日の日時を代入
+  const limiteDay3 = new Date("2023/9/16 17:00:00"); // 期限日の日時を代入
   const limiteyear3 = limiteDay3.getFullYear();
   const limitemonth3 = limiteDay3.getMonth() + 1; // 月を取得、0～1で返されるため +1
   const limitedate3 = limiteDay3.getDate();
@@ -85,7 +85,7 @@ const time = () => {
 
   /* 期限日時までの残り日数と時間の計算と表示の処理 */
   const elToday = today.getTime(); // 基準日付時間（1970年1月1日）からの経過ミリ秒取得
-  const ellimiteDay = limiteDay.getTime(); // 基準日付時間（1970年1月1日）からの経過ミリ秒取得
+  const ellimiteDay = limiteDay3.getTime(); // 基準日付時間（1970年1月1日）からの経過ミリ秒取得
   const count = ellimiteDay - elToday; // 残り経過ミリ秒の差を計算
   const countDate = Math.trunc(count / 24 / 60 / 60 / 1000); // 日数に変換
   const countHours = Math.trunc((count / 60 / 60 / 1000) % 24); // 日数に変換後、24時間で割った余り
